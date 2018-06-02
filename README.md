@@ -11,17 +11,18 @@
                               ▐░░░░░░░░░░░▌      ▐░▌      ▐░░░░░░░░░░░▌ ▐░▌       ▐░▌ ▐░▌       ▐░▌
                                ▀▀▀▀▀▀▀▀▀▀▀        ▀        ▀▀▀▀▀▀▀▀▀▀▀   ▀         ▀   ▀         ▀ 
                                                                  
-# Termux primary setting
+# Termux Package Manager
 
-Script that performs the initial configuration of the Termux and install Metasploit Framework, RouterSploit, Reaver...
+Termux Package Manager, for installing various programs...
 
 
 ### Installation
 
 ```
-apt install git
+apt install git python python-dev
+pip install termcolor
 git clone https://github.com/Deathlive/Storm
-chmod -R 700 $HOME/Storm
+chmod -R 700 Storm
 cd Storm
-bash start.sh
+./start.sh
 ```

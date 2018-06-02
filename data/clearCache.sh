@@ -2,4 +2,4 @@
 
 rm -rf $HOME/.cache
 rm -rf $HOME/.bundle/cache
-rm -rf $PREFIX/lib/ruby/gems/2.4.0/cache
+rm -rf $PREFIX/lib/ruby/gems/2.5.0/cache
