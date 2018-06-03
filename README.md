@@ -19,10 +19,7 @@ Termux Package Manager, for installing various programs...
 ### Installation
 
 ```
-apt install git python python-dev
-pip install termcolor
-git clone https://github.com/Deathlive/Storm
-chmod -R 700 Storm
-cd Storm
-./start.sh
+apt install wget
+wget https://raw.githubusercontent.com/Deathlive/Storm/master/install.sh
+bash install.sh
 ```
